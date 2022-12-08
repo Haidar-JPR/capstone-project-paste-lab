@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 double whiteSpace = 30;
+double borderRadius = 12;
 
 Color kPrimaryColor = const Color(0XFF032A3B);
 Color kSecondaryColor = const Color(0XFFE5CDA9);
@@ -15,7 +16,7 @@ TextStyle primaryTextStyle = GoogleFonts.lexendZetta(
 );
 
 TextStyle blackTextStyle = GoogleFonts.lexendZetta(
-  color: Colors.grey,
+  color: Colors.black,
 );
 
 TextStyle greyTextStyle = GoogleFonts.lexendZetta(
@@ -26,7 +27,7 @@ TextStyle whiteTextStyle = GoogleFonts.lexendZetta(
   color: Colors.white,
 );
 
-FontWeight light = FontWeight.w300;
+FontWeight light = FontWeight.w200;
 FontWeight regular = FontWeight.w400;
 FontWeight medium = FontWeight.w500;
 FontWeight semiBold = FontWeight.w600;
